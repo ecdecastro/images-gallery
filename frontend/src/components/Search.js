@@ -15,7 +15,7 @@ const Search = ({ word, setWord, handleSubmit}) => {
                 onChange={(e) => setWord(e.target.value)}
                 placeholder="Input Search...." />
               </Col>
-              <Col>
+              <Col> 
                 <Button variant="primary" type="submit">Search</Button>
               </Col>
             </Form.Row>
