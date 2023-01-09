@@ -1,4 +1,5 @@
 {
+    "editor.tabSize": 2,
     "eslint.validate": [
         "html",
         "javascript",
@@ -6,5 +7,16 @@
     ],
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
-    }
+    },
+    "python.pythonPath": "api/.venv/Scripts/python.exe",
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=88"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "python.linting.pylintArgs": ["--errors-only"]
 }
